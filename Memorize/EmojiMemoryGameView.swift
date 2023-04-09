@@ -12,20 +12,20 @@ struct EmojiMemoryGameView: View {
     var emojis = ["✈️","🚗","🚀","🚘","🚙","🚎","🚛","🛫","🚕","🚚"]
     @State var emojiCount = 4
     var body: some View {
-
-            AspectVGrid(items: game.cards, aspectRatio: 2/3) { card in
-                if card.isMatched && !card.isFaceUp {
-                    Rectangle().opacity(0)
-                } else {
-                    CardView(card: card).padding(4)
-                        .onTapGesture {
-                            game.choose(card)
-                        }
-                }
+        
+        AspectVGrid(items: game.cards, aspectRatio: 2/3) { card in
+            if card.isMatched && !card.isFaceUp {
+                Rectangle().opacity(0)
+            } else {
+                CardView(card: card).padding(4)
+                    .onTapGesture {
+                        game.choose(card)
+                    }
             }
-            .padding(.horizontal)
-            .foregroundColor(.red )
-
+        }
+        .padding(.horizontal)
+        .foregroundColor(.red )
+        
     }
 }
 
