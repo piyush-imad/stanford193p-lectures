@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3AC96F29E2E3F2009D5F80 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC96E29E2E3F2009D5F80 /* Cardify.swift */; };
 		4B3E240F29AE2AA000BE182B /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E240E29AE2AA000BE182B /* MemorizeApp.swift */; };
 		4B3E241129AE2AA000BE182B /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E241029AE2AA000BE182B /* EmojiMemoryGameView.swift */; };
 		4B3E241329AE2AA100BE182B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E241229AE2AA100BE182B /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3AC96E29E2E3F2009D5F80 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		4B3E240B29AE2AA000BE182B /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3E240E29AE2AA000BE182B /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		4B3E241029AE2AA000BE182B /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				4B76E58829DEDB9C00B09169 /* Pie.swift */,
 				4B3E241229AE2AA100BE182B /* Assets.xcassets */,
 				4B3E241429AE2AA100BE182B /* Preview Content */,
+				4B3AC96E29E2E3F2009D5F80 /* Cardify.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B76E58929DEDB9C00B09169 /* Pie.swift in Sources */,
+				4B3AC96F29E2E3F2009D5F80 /* Cardify.swift in Sources */,
 				4B4C115029B7179700AE85BB /* MemoryGame.swift in Sources */,
 				4B3E241129AE2AA000BE182B /* EmojiMemoryGameView.swift in Sources */,
 				4B3E240F29AE2AA000BE182B /* MemorizeApp.swift in Sources */,
